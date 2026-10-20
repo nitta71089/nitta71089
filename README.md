@@ -51,6 +51,15 @@
 <img src="https://img.shields.io/badge/RDS_%2F_Aurora-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white" />
 <img src="https://img.shields.io/badge/EventBridge-E7157B?style=for-the-badge&logo=amazoneventbridge&logoColor=white" />
 <img src="https://img.shields.io/badge/Bedrock-01A88D?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
+<img src="https://img.shields.io/badge/S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white" />
+<img src="https://img.shields.io/badge/CloudFront-8C4FFF?style=for-the-badge&logo=amazoncloudfront&logoColor=white" />
+<img src="https://img.shields.io/badge/Route_53-8C4FFF?style=for-the-badge&logo=amazonroute53&logoColor=white" />
+<img src="https://img.shields.io/badge/ALB-8C4FFF?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
+<img src="https://img.shields.io/badge/VPC-8C4FFF?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
+<img src="https://img.shields.io/badge/ECR-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
+<img src="https://img.shields.io/badge/ACM-DD344C?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
+<img src="https://img.shields.io/badge/IAM-DD344C?style=for-the-badge&logo=amazoniam&logoColor=white" />
+<img src="https://img.shields.io/badge/CloudWatch-E7157B?style=for-the-badge&logo=amazoncloudwatch&logoColor=white" />
 </td>
 </tr>
 <tr>
