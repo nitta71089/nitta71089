@@ -2,13 +2,13 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFF44F,100:6AAB73&height=160&section=header&text=Ko%20Nitta%20%2F%20新田%20昴&fontSize=40&fontColor=1a1a1a&animation=fadeIn" alt="header" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=900&color=6AAB73&center=true&vCenter=true&width=720&lines=Full-stack+Engineer+%2F+Freelance;Ruby+on+Rails+%2F+Next.js+%2F+AWS;Building+AI+Agents+with+TypeScript+%26+Python;AI-Driven+Development" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=900&color=6AAB73&center=true&vCenter=true&width=720&lines=Full-stack+Engineer;Ruby+on+Rails+%2F+Next.js+%2F+AWS;Building+AI+Agents+with+TypeScript+%26+Python;AI-Driven+Development" alt="Typing SVG" />
 
 <br />
 
 <img src="https://img.shields.io/badge/Focus-Full--stack%20%26%20AI%20Agents-CC0000?style=flat-square" />
 <img src="https://img.shields.io/badge/Style-AI--Driven%20Dev-6AAB73?style=flat-square" />
-<img src="https://img.shields.io/badge/Work-Freelance%20%2F%20Remote-FFF44F?style=flat-square" />
+<img src="https://img.shields.io/badge/Work-Remote-FFF44F?style=flat-square" />
 
 </div>
 
