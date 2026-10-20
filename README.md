@@ -8,7 +8,7 @@
 
 <img src="https://img.shields.io/badge/Focus-Full--stack%20%26%20AI%20Agents-CC0000?style=flat-square" />
 <img src="https://img.shields.io/badge/Style-AI--Driven%20Dev-6AAB73?style=flat-square" />
-<img src="https://img.shields.io/badge/Work-Remote-FFF44F?style=flat-square" />
+<img src="https://img.shields.io/badge/Based-Japan-FFF44F?style=flat-square" />
 
 </div>
 
