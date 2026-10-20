@@ -3,19 +3,20 @@
 </p>
 
 ```ruby
-nitta71089(dev)> me.attributes.merge(me.profile.attributes)
+nitta71089(dev)> me.as_json(include: :profile)
 ```
 
 | key | value |
 | :-- | :-- |
 | `id` | `71089` |
-| `name` | **Ko Nitta / 新田 昴** |
-| `role` | Full-stack Engineer |
-| `focus` | Full-stack & AI Agents |
-| `main_stack` | Ruby on Rails / Next.js / AWS |
-| `style` | AI-Driven Development |
-| `languages` | English / Japanese |
-| `based_in` | Japan 🇯🇵 |
+| `name` | **Ko Nitta** |
+| `profile.name_ja` | 新田 昴 |
+| `profile.role` | Full-stack Engineer |
+| `profile.focus` | Full-stack & AI Agents |
+| `profile.main_stack` | Ruby on Rails / Next.js / AWS |
+| `profile.style` | AI-Driven Development |
+| `profile.languages` | English / Japanese |
+| `profile.based_in` | Japan 🇯🇵 |
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:CC0000,100:0D1117&height=2" width="100%" alt="" />
 
