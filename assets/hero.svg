@@ -1,34 +1,122 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="530" viewBox="0 0 900 530" font-family='ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace' font-size="15">
+<style>text{white-space:pre}
+.a{opacity:0;animation:show 0s linear forwards}
+@keyframes show{to{opacity:1}}
+.blink{animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+@keyframes k1{0%{opacity:1;transform:translateX(0px)}26.82%{opacity:1;transform:translateX(9px)}29.67%{opacity:1;transform:translateX(18px)}34.21%{opacity:1;transform:translateX(27px)}36.79%{opacity:1;transform:translateX(36px)}40.94%{opacity:1;transform:translateX(45px)}44.52%{opacity:1;transform:translateX(54px)}47.05%{opacity:1;transform:translateX(63px)}51.10%{opacity:1;transform:translateX(72px)}53.57%{opacity:1;transform:translateX(81px)}57.37%{opacity:1;transform:translateX(90px)}59.95%{opacity:1;transform:translateX(99px)}62.59%{opacity:1;transform:translateX(108px)}66.37%{opacity:1;transform:translateX(117px)}71.50%{opacity:1;transform:translateX(126px)}74.26%{opacity:1;transform:translateX(135px)}77.35%{opacity:1;transform:translateX(144px)}81.81%{opacity:1;transform:translateX(153px)}84.41%{opacity:1;transform:translateX(153px)}100%{opacity:0;transform:translateX(153px)}}
+.k1{opacity:0;animation:k1 1.92s steps(1,end) 0.50s forwards}
+@keyframes k2{0%{opacity:1;transform:translateX(0px)}13.33%{opacity:1;transform:translateX(9px)}15.31%{opacity:1;transform:translateX(18px)}17.01%{opacity:1;transform:translateX(27px)}19.60%{opacity:1;transform:translateX(36px)}20.75%{opacity:1;transform:translateX(45px)}23.17%{opacity:1;transform:translateX(54px)}24.70%{opacity:1;transform:translateX(63px)}26.00%{opacity:1;transform:translateX(72px)}27.26%{opacity:1;transform:translateX(81px)}28.82%{opacity:1;transform:translateX(90px)}31.17%{opacity:1;transform:translateX(99px)}32.53%{opacity:1;transform:translateX(108px)}34.51%{opacity:1;transform:translateX(117px)}36.58%{opacity:1;transform:translateX(126px)}38.24%{opacity:1;transform:translateX(135px)}40.17%{opacity:1;transform:translateX(144px)}41.35%{opacity:1;transform:translateX(153px)}42.52%{opacity:1;transform:translateX(162px)}43.92%{opacity:1;transform:translateX(171px)}46.06%{opacity:1;transform:translateX(180px)}47.80%{opacity:1;transform:translateX(189px)}49.37%{opacity:1;transform:translateX(198px)}51.36%{opacity:1;transform:translateX(207px)}53.14%{opacity:1;transform:translateX(216px)}54.68%{opacity:1;transform:translateX(225px)}57.00%{opacity:1;transform:translateX(234px)}59.17%{opacity:1;transform:translateX(243px)}60.62%{opacity:1;transform:translateX(252px)}62.60%{opacity:1;transform:translateX(261px)}64.49%{opacity:1;transform:translateX(270px)}66.93%{opacity:1;transform:translateX(279px)}69.15%{opacity:1;transform:translateX(288px)}70.67%{opacity:1;transform:translateX(297px)}73.28%{opacity:1;transform:translateX(306px)}74.54%{opacity:1;transform:translateX(315px)}76.27%{opacity:1;transform:translateX(324px)}78.52%{opacity:1;transform:translateX(333px)}79.84%{opacity:1;transform:translateX(342px)}81.68%{opacity:1;transform:translateX(351px)}82.82%{opacity:1;transform:translateX(360px)}84.94%{opacity:1;transform:translateX(369px)}87.20%{opacity:1;transform:translateX(378px)}89.17%{opacity:1;transform:translateX(387px)}91.62%{opacity:1;transform:translateX(396px)}92.81%{opacity:1;transform:translateX(396px)}100%{opacity:0;transform:translateX(396px)}}
+.k2{opacity:0;animation:k2 4.17s steps(1,end) 2.53s forwards}
+@keyframes k3{0%{opacity:1;transform:translateX(0px)}32.90%{opacity:1;transform:translateX(9px)}38.66%{opacity:1;transform:translateX(18px)}44.00%{opacity:1;transform:translateX(27px)}49.27%{opacity:1;transform:translateX(36px)}54.04%{opacity:1;transform:translateX(45px)}60.40%{opacity:1;transform:translateX(54px)}67.19%{opacity:1;transform:translateX(63px)}72.03%{opacity:1;transform:translateX(72px)}77.66%{opacity:1;transform:translateX(81px)}80.85%{opacity:1;transform:translateX(81px)}100%{opacity:0;transform:translateX(81px)}}
+.k3{opacity:0;animation:k3 1.57s steps(1,end) 7.06s forwards}</style>
 <defs><radialGradient id="g" cx="100%" cy="0%" r="75%"><stop offset="0" stop-color="#CC0000" stop-opacity=".35"/><stop offset="1" stop-color="#CC0000" stop-opacity="0"/></radialGradient>
 <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#CC0000" stop-opacity="0"/><stop offset=".5" stop-color="#FF4D4D"/><stop offset="1" stop-color="#CC0000" stop-opacity="0"/></linearGradient>
-<clipPath id="win"><rect x="1" y="1" width="898" height="528" rx="14"/></clipPath>
-<clipPath id="c0"><rect x="35" y="78" height="26" width="176.0"><animate attributeName="width" values="0.0;19.0;28.0;37.0;46.0;55.0;64.0;73.0;82.0;91.0;100.0;109.0;118.0;127.0;136.0;145.0;154.0;163.0;172.0" keyTimes="0.0000;0.0499;0.1014;0.1068;0.1155;0.1205;0.1284;0.1353;0.1402;0.1480;0.1527;0.1600;0.1649;0.1700;0.1772;0.1871;0.1924;0.1983;0.2069" calcMode="discrete" dur="10.03s" fill="freeze"/></rect></clipPath>
-<clipPath id="c3"><rect x="35" y="156" height="26" width="554.0"><animate attributeName="width" values="0.0;154.0;163.0;172.0;181.0;190.0;199.0;208.0;217.0;226.0;235.0;244.0;253.0;262.0;271.0;280.0;289.0;298.0;307.0;316.0;325.0;334.0;343.0;352.0;361.0;370.0;379.0;388.0;397.0;406.0;415.0;424.0;433.0;442.0;451.0;460.0;469.0;478.0;487.0;496.0;505.0;514.0;523.0;532.0;541.0;550.0" keyTimes="0.0000;0.2528;0.3083;0.3165;0.3236;0.3344;0.3392;0.3492;0.3556;0.3610;0.3663;0.3728;0.3826;0.3882;0.3965;0.4051;0.4120;0.4200;0.4249;0.4298;0.4356;0.4445;0.4518;0.4583;0.4666;0.4740;0.4805;0.4901;0.4991;0.5052;0.5134;0.5213;0.5315;0.5407;0.5471;0.5579;0.5631;0.5703;0.5797;0.5852;0.5929;0.5976;0.6064;0.6159;0.6241;0.6343" calcMode="discrete" dur="10.03s" fill="freeze"/></rect></clipPath>
-<clipPath id="c9"><rect x="35" y="312" height="26" width="239.0"><animate attributeName="width" values="0.0;154.0;163.0;172.0;181.0;190.0;199.0;208.0;217.0;226.0;235.0" keyTimes="0.0000;0.7041;0.7555;0.7645;0.7728;0.7811;0.7885;0.7985;0.8091;0.8166;0.8254" calcMode="discrete" dur="10.03s" fill="freeze"/></rect></clipPath>
-</defs>
+<clipPath id="win"><rect x="1" y="1" width="898" height="528" rx="14"/></clipPath></defs>
 <g clip-path="url(#win)"><rect width="900" height="530" fill="#0D1117"/><rect width="900" height="530" fill="url(#g)"/>
 <rect width="900" height="44" fill="#161B22"/><rect y="44" width="900" height="1" fill="#30363D"/>
 <circle cx="26" cy="22" r="6.5" fill="#FF5F57"/><circle cx="48" cy="22" r="6.5" fill="#FEBC2E"/><circle cx="70" cy="22" r="6.5" fill="#28C840"/>
 <text x="450.0" y="27" text-anchor="middle" font-size="13" fill="#7D8590">~/nitta71089 — rails console</text>
 <rect x="0" y="527" width="900" height="3" fill="url(#bar)"/>
-<text x="36" y="96" textLength="171.0" lengthAdjust="spacing" clip-path="url(#c0)" xml:space="preserve"><tspan fill="#7D8590">$ </tspan><tspan fill="#E6EDF3">bin/rails console</tspan></text>
-<rect x="207.0" y="81" width="9" height="19" fill="#FF4D4D" opacity="0"><animate attributeName="x" values="54.0;63.0;72.0;81.0;90.0;99.0;108.0;117.0;126.0;135.0;144.0;153.0;162.0;171.0;180.0;189.0;198.0;207.0" keyTimes="0.0000;0.1014;0.1068;0.1155;0.1205;0.1284;0.1353;0.1402;0.1480;0.1527;0.1600;0.1649;0.1700;0.1772;0.1871;0.1924;0.1983;0.2069" calcMode="discrete" dur="10.03s" fill="freeze"/><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0499;0.2119" calcMode="discrete" dur="10.03s" fill="freeze"/></rect>
-<text x="36" y="122" textLength="405.0" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#7D8590">Loading development environment (Rails 8.0.2)</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.2468" calcMode="discrete" dur="10.03s" fill="freeze"/></text>
-<text x="36" y="174" textLength="549.0" lengthAdjust="spacing" clip-path="url(#c3)" xml:space="preserve"><tspan fill="#FF6B6B">nitta71089</tspan><tspan fill="#7D8590">(dev)&gt; </tspan><tspan fill="#E6EDF3">me</tspan><tspan fill="#7D8590"> = </tspan><tspan fill="#FFA657">Engineer</tspan><tspan fill="#D2A8FF">.find_by!</tspan><tspan fill="#E6EDF3">(github: </tspan><tspan fill="#A5D6FF">&quot;nitta71089&quot;</tspan><tspan fill="#E6EDF3">)</tspan></text>
-<rect x="585.0" y="159" width="9" height="19" fill="#FF4D4D" opacity="0"><animate attributeName="x" values="189.0;198.0;207.0;216.0;225.0;234.0;243.0;252.0;261.0;270.0;279.0;288.0;297.0;306.0;315.0;324.0;333.0;342.0;351.0;360.0;369.0;378.0;387.0;396.0;405.0;414.0;423.0;432.0;441.0;450.0;459.0;468.0;477.0;486.0;495.0;504.0;513.0;522.0;531.0;540.0;549.0;558.0;567.0;576.0;585.0" keyTimes="0.0000;0.3083;0.3165;0.3236;0.3344;0.3392;0.3492;0.3556;0.3610;0.3663;0.3728;0.3826;0.3882;0.3965;0.4051;0.4120;0.4200;0.4249;0.4298;0.4356;0.4445;0.4518;0.4583;0.4666;0.4740;0.4805;0.4901;0.4991;0.5052;0.5134;0.5213;0.5315;0.5407;0.5471;0.5579;0.5631;0.5703;0.5797;0.5852;0.5929;0.5976;0.6064;0.6159;0.6241;0.6343" calcMode="discrete" dur="10.03s" fill="freeze"/><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2528;0.6392" calcMode="discrete" dur="10.03s" fill="freeze"/></rect>
-<text x="36" y="200" textLength="18.0" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#7D8590">=&gt;</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.6742" calcMode="discrete" dur="10.03s" fill="freeze"/></text>
-<text x="36" y="226" textLength="261.0" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#FFA657">#&lt;Engineer:0x000000012f3a8c10</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.6801" calcMode="discrete" dur="10.03s" fill="freeze"/></text>
-<text x="36" y="252" textLength="99.0" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#FF7B72"> id: </tspan><tspan fill="#79C0FF">71089</tspan><tspan fill="#E6EDF3">,</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.6861" calcMode="discrete" dur="10.03s" fill="freeze"/></text>
-<text x="36" y="278" textLength="162.0" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#FF7B72"> name: </tspan><tspan fill="#A5D6FF">&quot;Ko Nitta&quot;</tspan><tspan fill="#E6EDF3">,</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.6921" calcMode="discrete" dur="10.03s" fill="freeze"/></text>
-<text x="36" y="304" textLength="198.0" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#FF7B72"> github: </tspan><tspan fill="#A5D6FF">&quot;nitta71089&quot;</tspan><tspan fill="#FFA657">&gt;</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.6981" calcMode="discrete" dur="10.03s" fill="freeze"/></text>
-<text x="36" y="330" textLength="234.0" lengthAdjust="spacing" clip-path="url(#c9)" xml:space="preserve"><tspan fill="#FF6B6B">nitta71089</tspan><tspan fill="#7D8590">(dev)&gt; </tspan><tspan fill="#E6EDF3">me</tspan><tspan fill="#D2A8FF">.greet!</tspan></text>
-<rect x="270.0" y="315" width="9" height="19" fill="#FF4D4D" opacity="0"><animate attributeName="x" values="189.0;198.0;207.0;216.0;225.0;234.0;243.0;252.0;261.0;270.0" keyTimes="0.0000;0.7555;0.7645;0.7728;0.7811;0.7885;0.7985;0.8091;0.8166;0.8254" calcMode="discrete" dur="10.03s" fill="freeze"/><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7041;0.8304" calcMode="discrete" dur="10.03s" fill="freeze"/></rect>
-<text x="36" y="356" textLength="36.0" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#7D8590">=&gt; </tspan><tspan fill="#E6EDF3">{</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.8653" calcMode="discrete" dur="10.03s" fill="freeze"/></text>
-<text x="36" y="382" textLength="225.0" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#FF7B72">  hello: </tspan><tspan fill="#A5D6FF">&quot;I&#x27;m Ko Nitta.&quot;</tspan><tspan fill="#E6EDF3">,</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.8713" calcMode="discrete" dur="10.03s" fill="freeze"/></text>
-<text x="36" y="408" textLength="486.0" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#FF7B72">  role: </tspan><tspan fill="#A5D6FF">&quot;Full-stack engineer on Rails, Next.js &amp; AWS&quot;</tspan><tspan fill="#E6EDF3">,</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.8773" calcMode="discrete" dur="10.03s" fill="freeze"/></text>
-<text x="36" y="434" textLength="468.0" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#FF7B72">  now: </tspan><tspan fill="#A5D6FF">&quot;Building AI agents with TypeScript &amp; Python&quot;</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.8833" calcMode="discrete" dur="10.03s" fill="freeze"/></text>
-<text x="36" y="460" textLength="9.0" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#E6EDF3">}</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.8893" calcMode="discrete" dur="10.03s" fill="freeze"/></text>
-<text x="36" y="486" textLength="153.0" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#FF6B6B">nitta71089</tspan><tspan fill="#7D8590">(dev)&gt; </tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.8953" calcMode="discrete" dur="10.03s" fill="freeze"/></text>
-<g><animate attributeName="opacity" values="0;1" keyTimes="0;0.8953" calcMode="discrete" dur="10.03s" fill="freeze"/><rect x="189.0" y="471" width="9" height="19" fill="#FF4D4D"><animate attributeName="opacity" values="1;0" keyTimes="0;.5" calcMode="discrete" dur="1.1s" repeatCount="indefinite"/></rect></g>
+<text x="36.0" y="96" fill="#7D8590" class="a" style="animation-delay:0.50s">$ </text>
+<text x="54.0" y="96" fill="#E6EDF3" class="a" style="animation-delay:1.02s">b</text>
+<text x="63.0" y="96" fill="#E6EDF3" class="a" style="animation-delay:1.07s">i</text>
+<text x="72.0" y="96" fill="#E6EDF3" class="a" style="animation-delay:1.16s">n</text>
+<text x="81.0" y="96" fill="#E6EDF3" class="a" style="animation-delay:1.21s">/</text>
+<text x="90.0" y="96" fill="#E6EDF3" class="a" style="animation-delay:1.29s">r</text>
+<text x="99.0" y="96" fill="#E6EDF3" class="a" style="animation-delay:1.36s">a</text>
+<text x="108.0" y="96" fill="#E6EDF3" class="a" style="animation-delay:1.41s">i</text>
+<text x="117.0" y="96" fill="#E6EDF3" class="a" style="animation-delay:1.48s">l</text>
+<text x="126.0" y="96" fill="#E6EDF3" class="a" style="animation-delay:1.53s">s</text>
+<text x="144.0" y="96" fill="#E6EDF3" class="a" style="animation-delay:1.65s">c</text>
+<text x="153.0" y="96" fill="#E6EDF3" class="a" style="animation-delay:1.70s">o</text>
+<text x="162.0" y="96" fill="#E6EDF3" class="a" style="animation-delay:1.78s">n</text>
+<text x="171.0" y="96" fill="#E6EDF3" class="a" style="animation-delay:1.88s">s</text>
+<text x="180.0" y="96" fill="#E6EDF3" class="a" style="animation-delay:1.93s">o</text>
+<text x="189.0" y="96" fill="#E6EDF3" class="a" style="animation-delay:1.99s">l</text>
+<text x="198.0" y="96" fill="#E6EDF3" class="a" style="animation-delay:2.07s">e</text>
+<rect class="k1" x="54.0" y="81" width="9" height="19" fill="#FF4D4D"/>
+<text x="36.0" y="122" fill="#7D8590" class="a" style="animation-delay:2.47s">Loading development environment (Rails 8.0.2)</text>
+<text x="36.0" y="174" fill="#FF6B6B" class="a" style="animation-delay:2.53s">nitta71089</text>
+<text x="126.0" y="174" fill="#7D8590" class="a" style="animation-delay:2.53s">(dev)&gt; </text>
+<text x="189.0" y="174" fill="#E6EDF3" class="a" style="animation-delay:3.09s">m</text>
+<text x="198.0" y="174" fill="#E6EDF3" class="a" style="animation-delay:3.17s">e</text>
+<text x="216.0" y="174" fill="#7D8590" class="a" style="animation-delay:3.35s">=</text>
+<text x="234.0" y="174" fill="#FFA657" class="a" style="animation-delay:3.50s">E</text>
+<text x="243.0" y="174" fill="#FFA657" class="a" style="animation-delay:3.56s">n</text>
+<text x="252.0" y="174" fill="#FFA657" class="a" style="animation-delay:3.62s">g</text>
+<text x="261.0" y="174" fill="#FFA657" class="a" style="animation-delay:3.67s">i</text>
+<text x="270.0" y="174" fill="#FFA657" class="a" style="animation-delay:3.74s">n</text>
+<text x="279.0" y="174" fill="#FFA657" class="a" style="animation-delay:3.84s">e</text>
+<text x="288.0" y="174" fill="#FFA657" class="a" style="animation-delay:3.89s">e</text>
+<text x="297.0" y="174" fill="#FFA657" class="a" style="animation-delay:3.97s">r</text>
+<text x="306.0" y="174" fill="#D2A8FF" class="a" style="animation-delay:4.06s">.</text>
+<text x="315.0" y="174" fill="#D2A8FF" class="a" style="animation-delay:4.13s">f</text>
+<text x="324.0" y="174" fill="#D2A8FF" class="a" style="animation-delay:4.21s">i</text>
+<text x="333.0" y="174" fill="#D2A8FF" class="a" style="animation-delay:4.26s">n</text>
+<text x="342.0" y="174" fill="#D2A8FF" class="a" style="animation-delay:4.31s">d</text>
+<text x="351.0" y="174" fill="#D2A8FF" class="a" style="animation-delay:4.37s">_</text>
+<text x="360.0" y="174" fill="#D2A8FF" class="a" style="animation-delay:4.46s">b</text>
+<text x="369.0" y="174" fill="#D2A8FF" class="a" style="animation-delay:4.53s">y</text>
+<text x="378.0" y="174" fill="#D2A8FF" class="a" style="animation-delay:4.59s">!</text>
+<text x="387.0" y="174" fill="#E6EDF3" class="a" style="animation-delay:4.68s">(</text>
+<text x="396.0" y="174" fill="#E6EDF3" class="a" style="animation-delay:4.75s">g</text>
+<text x="405.0" y="174" fill="#E6EDF3" class="a" style="animation-delay:4.82s">i</text>
+<text x="414.0" y="174" fill="#E6EDF3" class="a" style="animation-delay:4.91s">t</text>
+<text x="423.0" y="174" fill="#E6EDF3" class="a" style="animation-delay:5.00s">h</text>
+<text x="432.0" y="174" fill="#E6EDF3" class="a" style="animation-delay:5.06s">u</text>
+<text x="441.0" y="174" fill="#E6EDF3" class="a" style="animation-delay:5.15s">b</text>
+<text x="450.0" y="174" fill="#E6EDF3" class="a" style="animation-delay:5.23s">:</text>
+<text x="468.0" y="174" fill="#A5D6FF" class="a" style="animation-delay:5.42s">&quot;</text>
+<text x="477.0" y="174" fill="#A5D6FF" class="a" style="animation-delay:5.48s">n</text>
+<text x="486.0" y="174" fill="#A5D6FF" class="a" style="animation-delay:5.59s">i</text>
+<text x="495.0" y="174" fill="#A5D6FF" class="a" style="animation-delay:5.65s">t</text>
+<text x="504.0" y="174" fill="#A5D6FF" class="a" style="animation-delay:5.72s">t</text>
+<text x="513.0" y="174" fill="#A5D6FF" class="a" style="animation-delay:5.81s">a</text>
+<text x="522.0" y="174" fill="#A5D6FF" class="a" style="animation-delay:5.87s">7</text>
+<text x="531.0" y="174" fill="#A5D6FF" class="a" style="animation-delay:5.94s">1</text>
+<text x="540.0" y="174" fill="#A5D6FF" class="a" style="animation-delay:5.99s">0</text>
+<text x="549.0" y="174" fill="#A5D6FF" class="a" style="animation-delay:6.08s">8</text>
+<text x="558.0" y="174" fill="#A5D6FF" class="a" style="animation-delay:6.17s">9</text>
+<text x="567.0" y="174" fill="#A5D6FF" class="a" style="animation-delay:6.26s">&quot;</text>
+<text x="576.0" y="174" fill="#E6EDF3" class="a" style="animation-delay:6.36s">)</text>
+<rect class="k2" x="189.0" y="159" width="9" height="19" fill="#FF4D4D"/>
+<text x="36.0" y="200" fill="#7D8590" class="a" style="animation-delay:6.76s">=&gt;</text>
+<text x="36.0" y="226" fill="#FFA657" class="a" style="animation-delay:6.82s">#&lt;Engineer:0x000000012f3a8c10</text>
+<text x="36.0" y="252" fill="#FF7B72" class="a" style="animation-delay:6.88s"> id: </text>
+<text x="81.0" y="252" fill="#79C0FF" class="a" style="animation-delay:6.88s">71089</text>
+<text x="126.0" y="252" fill="#E6EDF3" class="a" style="animation-delay:6.88s">,</text>
+<text x="36.0" y="278" fill="#FF7B72" class="a" style="animation-delay:6.94s"> name: </text>
+<text x="99.0" y="278" fill="#A5D6FF" class="a" style="animation-delay:6.94s">&quot;Ko Nitta&quot;</text>
+<text x="189.0" y="278" fill="#E6EDF3" class="a" style="animation-delay:6.94s">,</text>
+<text x="36.0" y="304" fill="#FF7B72" class="a" style="animation-delay:7.00s"> github: </text>
+<text x="117.0" y="304" fill="#A5D6FF" class="a" style="animation-delay:7.00s">&quot;nitta71089&quot;</text>
+<text x="225.0" y="304" fill="#FFA657" class="a" style="animation-delay:7.00s">&gt;</text>
+<text x="36.0" y="330" fill="#FF6B6B" class="a" style="animation-delay:7.06s">nitta71089</text>
+<text x="126.0" y="330" fill="#7D8590" class="a" style="animation-delay:7.06s">(dev)&gt; </text>
+<text x="189.0" y="330" fill="#E6EDF3" class="a" style="animation-delay:7.57s">m</text>
+<text x="198.0" y="330" fill="#E6EDF3" class="a" style="animation-delay:7.66s">e</text>
+<text x="207.0" y="330" fill="#D2A8FF" class="a" style="animation-delay:7.75s">.</text>
+<text x="216.0" y="330" fill="#D2A8FF" class="a" style="animation-delay:7.83s">g</text>
+<text x="225.0" y="330" fill="#D2A8FF" class="a" style="animation-delay:7.91s">r</text>
+<text x="234.0" y="330" fill="#D2A8FF" class="a" style="animation-delay:8.00s">e</text>
+<text x="243.0" y="330" fill="#D2A8FF" class="a" style="animation-delay:8.11s">e</text>
+<text x="252.0" y="330" fill="#D2A8FF" class="a" style="animation-delay:8.19s">t</text>
+<text x="261.0" y="330" fill="#D2A8FF" class="a" style="animation-delay:8.28s">!</text>
+<rect class="k3" x="189.0" y="315" width="9" height="19" fill="#FF4D4D"/>
+<text x="36.0" y="356" fill="#7D8590" class="a" style="animation-delay:8.68s">=&gt; </text>
+<text x="63.0" y="356" fill="#E6EDF3" class="a" style="animation-delay:8.68s">{</text>
+<text x="36.0" y="382" fill="#FF7B72" class="a" style="animation-delay:8.74s">  hello: </text>
+<text x="117.0" y="382" fill="#A5D6FF" class="a" style="animation-delay:8.74s">&quot;I&#x27;m Ko Nitta.&quot;</text>
+<text x="252.0" y="382" fill="#E6EDF3" class="a" style="animation-delay:8.74s">,</text>
+<text x="36.0" y="408" fill="#FF7B72" class="a" style="animation-delay:8.80s">  role: </text>
+<text x="108.0" y="408" fill="#A5D6FF" class="a" style="animation-delay:8.80s">&quot;Full-stack engineer on Rails, Next.js &amp; AWS&quot;</text>
+<text x="513.0" y="408" fill="#E6EDF3" class="a" style="animation-delay:8.80s">,</text>
+<text x="36.0" y="434" fill="#FF7B72" class="a" style="animation-delay:8.86s">  now: </text>
+<text x="99.0" y="434" fill="#A5D6FF" class="a" style="animation-delay:8.86s">&quot;Building AI agents with TypeScript &amp; Python&quot;</text>
+<text x="36.0" y="460" fill="#E6EDF3" class="a" style="animation-delay:8.92s">}</text>
+<text x="36.0" y="486" fill="#FF6B6B" class="a" style="animation-delay:8.98s">nitta71089</text>
+<text x="126.0" y="486" fill="#7D8590" class="a" style="animation-delay:8.98s">(dev)&gt; </text>
+<g class="a" style="animation-delay:8.98s"><rect class="blink" x="189.0" y="471" width="9" height="19" fill="#FF4D4D"/></g>
 </g>
 <rect x=".5" y=".5" width="899" height="529" rx="14" fill="none" stroke="#30363D"/></svg>
